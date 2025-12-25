@@ -15,8 +15,8 @@ new_row_loc={'Name':'Kav','Age':22,'City':'Mumbai'}
 df.loc[len(df.index)]=new_row_loc
 
 #adding new row to df fpr v3
-#new_row_loc2={'Name':'Anu','Age':28,'City':'Pune'}
-#df.loc[len(df.index)]=new_row_loc2
+new_row_loc2={'Name':'Anu','Age':28,'City':'Pune'}
+df.loc[len(df.index)]=new_row_loc2
 
 #Ensure the "data" directory exists at the root level
 data_dir = 'data'
